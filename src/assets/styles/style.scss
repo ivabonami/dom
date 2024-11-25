@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+
+body {
+  font-family: "Commissioner", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+          "slnt" 0,
+          "FLAR" 0,
+          "VOLM" 0;
+  background-color: #F5F5F5 ;
+}
+
+main {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+button {
+  display: inline-flex;
+  padding: 6px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
